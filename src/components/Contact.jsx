@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -10,8 +9,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    details: ["(555) 123-4567", "(555) 123-4568"],
-    subtext: "Available 24/7 for emergencies"
+    details: ["+44 7378 598567"],
+    subtext: "Available for project inquiries"
   },
   {
     icon: Mail,
@@ -21,15 +20,15 @@ const contactInfo = [
   },
   {
     icon: MapPin,
-    title: "Visit Our Office",
-    details: ["123 Construction Blvd", "Downtown District, CA 90210"],
-    subtext: "Monday - Friday: 8AM - 6PM"
+    title: "Our Location",
+    details: ["Based in London", "Serving Greater London Area"],
+    subtext: "Meetings by appointment only"
   },
   {
     icon: Clock,
     title: "Business Hours",
     details: ["Mon - Fri: 8:00 AM - 6:00 PM", "Sat: 9:00 AM - 4:00 PM"],
-    subtext: "Emergency services 24/7"
+    subtext: "Emergency services available"
   }
 ];
 
@@ -79,9 +78,9 @@ export default function Contact() {
                       <info.icon className="w-6 h-6 text-blue-900" />
                     </div>
                     <div>
-                      <h3 className="font-bold text-slate-900 mb-2">{info.title}</h3>
+                      <h3 className="font-bold text-black mb-2">{info.title}</h3>
                       {info.details.map((detail, detailIndex) => (
-                        <p key={detailIndex} className="text-gray-700 font-medium">
+                        <p key={detailIndex} className="text-gray-800 font-medium">
                           {detail}
                         </p>
                       ))}
@@ -140,7 +139,7 @@ export default function Contact() {
                         name="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        placeholder="(555) 123-4567"
+                        placeholder="+44 7378 598567"
                         className="h-12 border-gray-300 focus:border-blue-900 focus:ring-blue-900"
                       />
                     </div>

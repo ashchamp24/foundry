@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Phone, Mail, MapPin } from 'lucide-react';
@@ -16,7 +15,7 @@ export default function Hero() {
       
       {/* Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
-        <div className="mb-8">
+        <div className="mb-12">
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Building Your
             <span className="text-blue-300 block">Dreams Into Reality</span>
@@ -27,27 +26,11 @@ export default function Hero() {
           </p>
         </div>
 
-        <div className="flex flex-col sm:flex-row gap-6 justify-center mb-12">
-          <Button
-            size="lg"
-            className="bg-blue-800 hover:bg-blue-900 text-white px-8 py-4 text-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-xl">
-
-            Get Free Quote
-          </Button>
-          <Button
-            variant="outline"
-            size="lg"
-            className="border-2 border-blue-300 text-blue-300 hover:bg-blue-300 hover:text-black px-8 py-4 text-lg font-semibold transition-all duration-300 shadow-lg">
-
-            View Our Work
-          </Button>
-        </div>
-
         {/* Quick Contact Info */}
         <div className="flex flex-col md:flex-row gap-8 justify-center items-center text-gray-200">
           <div className="flex items-center gap-3">
             <Phone className="w-5 h-5 text-blue-300" />
-            <span className="text-lg">(555) 123-4567</span>
+            <span className="text-lg">+44 7378 598567</span>
           </div>
           <div className="flex items-center gap-3">
             <Mail className="w-5 h-5 text-blue-300" />
@@ -55,7 +38,7 @@ export default function Hero() {
           </div>
           <div className="flex items-center gap-3">
             <MapPin className="w-5 h-5 text-blue-300" />
-            <span className="text-lg">Downtown District</span>
+            <span className="text-lg">London, United Kingdom</span>
           </div>
         </div>
       </div>
