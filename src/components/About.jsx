@@ -4,8 +4,8 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Award, Users, Clock, Shield } from 'lucide-react';
 
 const stats = [
-  { icon: Award, number: "500+", label: "Projects Completed" },
-  { icon: Users, number: "50+", label: "Expert Team Members" },
+  { icon: Award, number: "7", label: "Projects Completed" },
+  { icon: Users, number: "10+", label: "Expert Team Members" },
   { icon: Clock, number: "20+", label: "Years Experience" },
   { icon: Shield, number: "100%", label: "Satisfaction Rate" }
 ];

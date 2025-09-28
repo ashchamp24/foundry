@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -9,7 +10,7 @@ const projects = [
     location: "Hampstead, NW3",
     year: "2024",
     category: "Residential",
-    image: "https://images.unsplash.com/photo-1600585152225-3579fe9d7ae2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d8f0dcf4c0dff2cdf1d240/426ce6a6a_eyg-extension-3-w930.jpg",
     description: "A stunning glass and steel extension creating a light-filled kitchen and dining area, seamlessly connecting the period home to its garden."
   },
   {
@@ -17,15 +18,15 @@ const projects = [
     location: "St. John's Wood, NW8",
     year: "2023",
     category: "Renovation",
-    image: "https://images.unsplash.com/photo-1615875605825-5eb9bb5c6044?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Transformed an unused attic into a luxurious master suite with an en-suite bathroom and bespoke joinery."
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d8f0dcf4c0dff2cdf1d240/9153bea0b_Screenshot2025-09-28at152753.png",
+    description: "Transformed an unused attic into a luxurious home office with bespoke joinery and ample natural light."
   },
   {
     title: "Notting Hill Kitchen Remodel",
     location: "Notting Hill, W11",
     year: "2024",
     category: "Renovation",
-    image: "https://images.unsplash.com/photo-1617806118233-524c70b925dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d8f0dcf4c0dff2cdf1d240/499a1bf0e_small-kitcehn-remodel-length.jpg",
     description: "A complete kitchen transformation in a Grade II listed building, featuring premium finishes and custom cabinetry."
   },
   {
@@ -33,15 +34,15 @@ const projects = [
     location: "Primrose Hill, NW1",
     year: "2023",
     category: "Renovation",
-    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "Full-scale renovation of a Victorian terrace, blending contemporary design with the restoration of original period features."
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d8f0dcf4c0dff2cdf1d240/a7d5a3432_hmo-reconfiguration-019.jpg",
+    description: "Full-scale renovation of a Victorian terrace, creating modern, bright living spaces while restoring original period features."
   },
   {
     title: "Belsize Park Basement Conversion",
     location: "Belsize Park, NW3",
     year: "2024",
     category: "Residential",
-    image: "https://images.unsplash.com/photo-1585672545580-2d8c9f53995b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d8f0dcf4c0dff2cdf1d240/c9f19f703_Screenshot2025-09-28at152735.png",
     description: "An ambitious basement dig-out to create a spacious family entertainment room and home cinema."
   },
   {
@@ -49,7 +50,7 @@ const projects = [
     location: "Kensington, W8",
     year: "2023",
     category: "Renovation",
-    image: "https://images.unsplash.com/photo-1594434533430-05e8a5a51a8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    image: "https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/68d8f0dcf4c0dff2cdf1d240/2cc349f50_bond-construction-hmo-conversion-extension-03n.jpg", // Updated image URL
     description: "Careful restoration of a classic Kensington townhouse, preserving historical character while upgrading all modern amenities."
   }
 ];
