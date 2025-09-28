@@ -14,28 +14,12 @@ const projects = [
     description: "5,000 sq ft luxury home with contemporary design and smart home integration."
   },
   {
-    title: "Corporate Headquarters",
-    location: "Downtown LA",
-    year: "2023",
-    category: "Commercial",
-    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "20-story office building with sustainable design and LEED certification."
-  },
-  {
     title: "Luxury Kitchen Remodel",
     location: "Manhattan Beach",
     year: "2024",
     category: "Renovation",
     image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     description: "Complete kitchen transformation with premium finishes and custom cabinetry."
-  },
-  {
-    title: "Retail Shopping Center",
-    location: "Santa Monica",
-    year: "2023",
-    category: "Commercial",
-    image: "https://images.unsplash.com/photo-1555636222-cae831e670b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    description: "50,000 sq ft mixed-use development with retail and office spaces."
   },
   {
     title: "Custom Pool House",
@@ -55,7 +39,7 @@ const projects = [
   }
 ];
 
-const categories = ["All", "Residential", "Commercial", "Renovation"];
+const categories = ["All", "Residential", "Renovation"];
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState("All");
